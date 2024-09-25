@@ -1,0 +1,21 @@
+/* Überschrift in rot */
+h1 {
+    color: red;
+}
+
+/* Button in blau */
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#zuruecksetzenn {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

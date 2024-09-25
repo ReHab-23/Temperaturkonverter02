@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Hier wird die CSS-Datei eingebunden -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Temperaturkonverter02</h1>
+    <br>
+    <p>Gegebener Zahlenwert:
+        <input type="number" id="zahlenwert" value="0">
+    </p>
+    <p>Gegebene Einheit:
+        <select name="einheit_geg" id="einheit_geg1">
+            <option value="c">Celsius</option>
+            <option value="f">Fahrenheit</option>
+            <option value="k">Kelvin</option>
+        </select>
+    </p>
+    <p>Gesuchte Einheit:
+        <select name="einheit_ges" id="einheit_ges1">
+            <option value="c">Celsius</option>
+            <option value="f">Fahrenheit</option>
+            <option value="k">Kelvin</option>
+        </select>
+    </p>
+    <button type="button" onclick="konvertieren()" id="konvertierenn">konvertieren</button>
+    <br>
+    <p>Ergebnis:</p>
+    <p id="output1"></p>
+    <br><br><br>
+    <button type="button" onclick="zuruecksetzen()" id ="zuruecksetzenn">zurücksetzen</button>
+    <!-- Hier wird die JavaScript-Datei eingebunden -->
+    <script src="main.js"></script>
+</body>
+</html>
